@@ -327,7 +327,7 @@ page("articles.html", "Articles | Lighter Together",
      "Practical, plain-language articles about living with and treating severe obesity.",
 """<main><div class="wrap"><h1>Articles</h1>
 <div class="card"><h3><a href="how-to-treat-severe-obesity.html">How to Treat Severe Obesity</a></h3><p>The main treatment options explained: evaluation, nutrition, activity, medication and surgery.</p></div>
-<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>
+<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>\n<div class="card"><h3><a href="how-to-read-nutrition-labels.html">How to Read a Nutrition Facts Label</a></h3><p>A simple step-by-step guide to serving sizes, added sugars, sodium and Daily Values.</p></div>
 </div></main>""")
 
 
@@ -376,6 +376,48 @@ page("sleep-stress-and-weight.html",
 <ul>
 <li>Geiker NRW et al. Does stress influence sleep patterns, food intake, weight gain, abdominal obesity and weight loss interventions and vice versa? Obesity Reviews, 2018.</li>
 <li>U.S. National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): Sleep Extension Study in obese adults with short sleep duration (ClinicalTrials.gov NCT00261898).</li>
+</ul>
+<p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
+</article></div></main>""")
+
+
+page("how-to-read-nutrition-labels.html",
+     "How to Read a Nutrition Facts Label | Lighter Together",
+     "A simple step-by-step guide to reading the Nutrition Facts label: serving size, calories, added sugars, sodium and Daily Values.",
+"""<main><div class="wrap"><article>
+<h1>How to Read a Nutrition Facts Label</h1>
+<p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
+<p>Food labels can look confusing, but a few habits make them much easier to use. This guide follows the layout used on packaged foods in the United States. Labels in other countries may look different, but the ideas are similar.</p>
+
+<h2>Step 1: Check the servings first</h2>
+<p>All the numbers on the label are for one serving, not for the whole package. Look at the serving size and at how many servings the package contains. A bottle or bag that looks like a single portion may contain two or more servings, so eating all of it means doubling the numbers. The serving size is not a recommendation of how much to eat.</p>
+
+<h2>Step 2: Look at calories</h2>
+<p>Calories show how much energy one serving provides. Compare the calories with the amount you actually eat, not just with the printed serving.</p>
+
+<h2>Step 3: Use the Percent Daily Value</h2>
+<p>The Percent Daily Value (DV) shows how much a nutrient in one serving contributes to a whole day of eating, based on a general reference diet. As a quick guide, 5 percent or less is low and 20 percent or more is high.</p>
+<ul>
+<li>Aim for <strong>higher</strong> amounts of fibre, vitamin D, calcium, iron and potassium.</li>
+<li>Aim for <strong>lower</strong> amounts of saturated fat, sodium (salt) and added sugars.</li>
+</ul>
+
+<h2>Step 4: Understand added sugars</h2>
+<p>Total sugars include sugars found naturally in foods such as fruit and milk, plus any sugars added during processing. The label shows added sugars separately, and they are already counted inside the total. For example, if a product has 15 grams of total sugars and 7 grams of added sugars, the other 8 grams occur naturally. Current US dietary guidelines suggest keeping added sugars below about 10 percent of daily calories.</p>
+
+<h2>Step 5: Read the ingredients list</h2>
+<p>Ingredients are listed from the largest amount to the smallest. If sugar or another sweetener appears near the top, the product is likely high in added sugar. Sugar can appear under many names, such as syrup, dextrose or concentrate.</p>
+
+<h2>Be careful with front-of-pack claims</h2>
+<p>Words like "light", "natural" or "low fat" do not tell the whole story. Always check the label on the back or side, because a product can be low in one thing and high in another.</p>
+
+<h2>Getting personal advice</h2>
+<p>A label can help you compare products, but it cannot tell you what you personally need. If you are living with severe obesity, diabetes, kidney disease or high blood pressure, ask your doctor or a registered dietitian to help you plan your meals.</p>
+
+<h2>Sources to read</h2>
+<ul>
+<li>U.S. Food and Drug Administration: How to Understand and Use the Nutrition Facts Label.</li>
+<li>Academy of Nutrition and Dietetics (eatright.org): The Basics of the Nutrition Facts Label.</li>
 </ul>
 <p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
 </article></div></main>""")
