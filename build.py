@@ -78,7 +78,7 @@ f"""<section class="hero"><div class="wrap">
 page("how-to-treat-severe-obesity.html", "How to Treat Severe Obesity: A Practical, Evidence-Based Guide",
      "Learn how severe obesity is treated: medical evaluation, nutrition, physical activity, medications, bariatric surgery and long-term support.",
 f"""<main><div class="wrap"><article>
-<h1>How to Treat Severe Obesity: A Practical, Evidence-Based Guide</h1>
+<h1>How to Treat Severe Obesity: A Practical, Evidence-Based Guide</h1>\n<img class="hero" src="img/how-to-treat-severe-obesity.svg" alt="Illustration of a heart with a medical cross" width="800" height="320">
 <p class="meta">Updated {TODAY} &middot; Reading time about 6 minutes</p>
 {DISC}
 <p>Severe obesity is a chronic medical condition, and it can be treated. The most successful plans combine several approaches and are adjusted over time with a healthcare team. This guide explains the main options so you can have a more informed conversation with your doctor.</p>
@@ -270,7 +270,7 @@ page("start-walking-with-severe-obesity.html",
      "How to Start Walking Safely With Severe Obesity | Lighter Together",
      "A gentle, practical plan for starting to walk when you live with severe obesity: how to begin, how to progress, and when to ask your doctor first.",
 """<main><div class="wrap"><article>
-<h1>How to Start Walking Safely With Severe Obesity</h1>
+<h1>How to Start Walking Safely With Severe Obesity</h1>\n<img class="hero" src="img/start-walking-with-severe-obesity.svg" alt="Illustration of a winding walking path under the sun" width="800" height="320">
 <p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
 <p>Walking is one of the simplest ways to become more active. It needs no equipment, can be done at any pace, and is usually gentler on the body than running. If severe obesity makes movement uncomfortable, the goal at the start is not speed or distance. It is to build a habit that feels safe and repeatable.</p>
 
@@ -335,7 +335,7 @@ page("sleep-stress-and-weight.html",
      "Sleep, Stress and Weight: Why Rest Matters | Lighter Together",
      "How poor sleep and stress can affect appetite and weight, why the link works both ways, and simple steps to sleep and cope better.",
 """<main><div class="wrap"><article>
-<h1>Sleep, Stress and Weight: Why Rest Matters</h1>
+<h1>Sleep, Stress and Weight: Why Rest Matters</h1>\n<img class="hero" src="img/sleep-stress-and-weight.svg" alt="Illustration of a crescent moon and stars at night" width="800" height="320">
 <p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
 <p>Food and exercise get most of the attention, but sleep and stress also shape how hungry we feel and how much energy we have to move. Looking after them will not replace medical treatment, but it can make every other step easier.</p>
 
@@ -385,7 +385,7 @@ page("how-to-read-nutrition-labels.html",
      "How to Read a Nutrition Facts Label | Lighter Together",
      "A simple step-by-step guide to reading the Nutrition Facts label: serving size, calories, added sugars, sodium and Daily Values.",
 """<main><div class="wrap"><article>
-<h1>How to Read a Nutrition Facts Label</h1>
+<h1>How to Read a Nutrition Facts Label</h1>\n<img class="hero" src="img/how-to-read-nutrition-labels.svg" alt="Illustration of a nutrition label next to an apple" width="800" height="320">
 <p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
 <p>Food labels can look confusing, but a few habits make them much easier to use. This guide follows the layout used on packaged foods in the United States. Labels in other countries may look different, but the ideas are similar.</p>
 
@@ -427,7 +427,7 @@ page("questions-to-ask-your-doctor-about-weight.html",
      "Questions to Ask Your Doctor About Weight and Treatment | Lighter Together",
      "A practical list of questions to take to your doctor when you want to talk about weight, medicines, surgery, follow-up care and insurance.",
 """<main><div class="wrap"><article>
-<h1>Questions to Ask Your Doctor About Weight and Treatment</h1>
+<h1>Questions to Ask Your Doctor About Weight and Treatment</h1>\n<img class="hero" src="img/questions-to-ask-your-doctor-about-weight.svg" alt="Illustration of two speech bubbles with a question mark" width="800" height="320">
 <p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
 <p>Talking about weight can feel uncomfortable, but your doctor is there to help you improve your health, not to judge you. A little preparation makes the visit far more useful.</p>
 
@@ -496,7 +496,7 @@ page("gentle-exercises-water-and-chair.html",
      "Gentle Exercises for Sore Joints: Water and Chair Workouts | Lighter Together",
      "Low-impact exercise ideas for people with joint pain or limited mobility: water exercise and simple seated movements, with safety tips.",
 """<main><div class="wrap"><article>
-<h1>Gentle Exercises for Sore Joints: Water and Chair Workouts</h1>
+<h1>Gentle Exercises for Sore Joints: Water and Chair Workouts</h1>\n<img class="hero" src="img/gentle-exercises-water-and-chair.svg" alt="Illustration of calm water waves and a simple chair" width="800" height="320">
 <p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
 <p>If walking hurts your knees, hips, back or feet, you can still be active. Water exercise and seated exercise take pressure off your joints, so they are good places to start. If you are ready for walking, see our <a href="start-walking-with-severe-obesity.html">walking guide</a>.</p>
 
@@ -547,7 +547,7 @@ page("realistic-goals-and-tracking-progress.html",
      "Setting Realistic Goals and Tracking Progress | Lighter Together",
      "How to set realistic, specific goals for your health, how fast progress usually happens, and ways to track it beyond the scale.",
 """<main><div class="wrap"><article>
-<h1>Setting Realistic Goals and Tracking Progress</h1>
+<h1>Setting Realistic Goals and Tracking Progress</h1>\n<img class="hero" src="img/realistic-goals-and-tracking-progress.svg" alt="Illustration of steps leading up to a flag" width="800" height="320">
 <p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
 <p>Big dramatic goals feel exciting at first, but they often lead to frustration. Small, specific goals that you can actually reach build confidence, and confidence keeps you going.</p>
 
@@ -596,4 +596,6 @@ page("realistic-goals-and-tracking-progress.html",
 <p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
 </article></div></main>""")
 
+import shutil
+shutil.copytree("src/img", "dist/img", dirs_exist_ok=True)
 print("built", len(pages), "pages")
