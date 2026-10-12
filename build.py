@@ -327,7 +327,7 @@ page("articles.html", "Articles | Lighter Together",
      "Practical, plain-language articles about living with and treating severe obesity.",
 """<main><div class="wrap"><h1>Articles</h1>
 <div class="card"><h3><a href="how-to-treat-severe-obesity.html">How to Treat Severe Obesity</a></h3><p>The main treatment options explained: evaluation, nutrition, activity, medication and surgery.</p></div>
-<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>\n<div class="card"><h3><a href="how-to-read-nutrition-labels.html">How to Read a Nutrition Facts Label</a></h3><p>A simple step-by-step guide to serving sizes, added sugars, sodium and Daily Values.</p></div>\n<div class="card"><h3><a href="questions-to-ask-your-doctor-about-weight.html">Questions to Ask Your Doctor</a></h3><p>A practical checklist for talking about weight, medicines, surgery and follow-up care.</p></div>
+<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>\n<div class="card"><h3><a href="how-to-read-nutrition-labels.html">How to Read a Nutrition Facts Label</a></h3><p>A simple step-by-step guide to serving sizes, added sugars, sodium and Daily Values.</p></div>\n<div class="card"><h3><a href="questions-to-ask-your-doctor-about-weight.html">Questions to Ask Your Doctor</a></h3><p>A practical checklist for talking about weight, medicines, surgery and follow-up care.</p></div>\n<div class="card"><h3><a href="gentle-exercises-water-and-chair.html">Gentle Exercises: Water and Chair</a></h3><p>Low-impact ideas for sore joints, with simple safety tips.</p></div>
 </div></main>""")
 
 
@@ -487,6 +487,57 @@ page("questions-to-ask-your-doctor-about-weight.html",
 <li>U.S. National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): fact sheet on talking with your health care professional about weight.</li>
 <li>American Association of Clinical Endocrinology (AACE): Questions to Ask Your Health Care Professional about obesity.</li>
 <li>American Diabetes Association: Talking to Your Doctor About Obesity Medical Treatments.</li>
+</ul>
+<p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
+</article></div></main>""")
+
+
+page("gentle-exercises-water-and-chair.html",
+     "Gentle Exercises for Sore Joints: Water and Chair Workouts | Lighter Together",
+     "Low-impact exercise ideas for people with joint pain or limited mobility: water exercise and simple seated movements, with safety tips.",
+"""<main><div class="wrap"><article>
+<h1>Gentle Exercises for Sore Joints: Water and Chair Workouts</h1>
+<p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
+<p>If walking hurts your knees, hips, back or feet, you can still be active. Water exercise and seated exercise take pressure off your joints, so they are good places to start. If you are ready for walking, see our <a href="start-walking-with-severe-obesity.html">walking guide</a>.</p>
+
+<h2>Check with your doctor first</h2>
+<p>Ask your doctor before starting, especially if you have heart or lung disease, diabetes, high blood pressure, open wounds or skin infections, or if you have recently had surgery. Your doctor or a physiotherapist can suggest exercises that suit your joints.</p>
+
+<h2>Option 1: Water exercise</h2>
+<p>Water supports your body, which reduces the load on your joints, while still giving gentle resistance to build strength. It can be a very comfortable way to move.</p>
+<ul>
+<li><strong>Water walking:</strong> walk forwards, backwards and sideways in waist-deep or chest-deep water.</li>
+<li><strong>Water aerobics classes:</strong> gentle group classes with arm and leg movements. Some programmes are designed especially for people with arthritis and use warm water.</li>
+<li><strong>Pool cycling or leg swings:</strong> hold the pool edge and swing one leg at a time slowly forwards and back.</li>
+</ul>
+<p>Tips: check that the pool has a safe entrance such as steps with a handrail or a ramp. Wear water shoes if the pool floor is slippery. Go with a friend or tell staff. Rinse and dry your skin well afterwards, especially in folds, to protect it.</p>
+
+<h2>Option 2: Chair exercises</h2>
+<p>Use a sturdy chair without wheels, placed against a wall. Sit tall with your feet flat on the floor. Move slowly and breathe normally.</p>
+<ul>
+<li><strong>Seated marching:</strong> lift one knee a little, lower it, then switch sides.</li>
+<li><strong>Leg extensions:</strong> straighten one knee, pause briefly, and lower it gently.</li>
+<li><strong>Arm raises:</strong> lift both arms forwards and up as far as is comfortable, then lower them.</li>
+<li><strong>Shoulder rolls and ankle circles:</strong> small, slow circles to loosen stiff joints.</li>
+</ul>
+<p>Start with a few repeats of each, and add a few more over the weeks. A short session is enough to begin with.</p>
+
+<h2>How to keep going</h2>
+<ul>
+<li>Listen to your body. Mild effort is fine, but never push through sharp or increasing pain.</li>
+<li>Give it time. Benefits often build over several weeks rather than days.</li>
+<li>On harder days, do less, try a gentler movement, or take a day off.</li>
+<li>Choose the option you will actually repeat. Doing something regularly matters more than doing it perfectly.</li>
+</ul>
+
+<h2>Stop and get medical help if you have</h2>
+<p>Chest pain or pressure, severe shortness of breath, fainting or severe dizziness, or sudden strong pain or swelling in a joint.</p>
+
+<h2>Sources to read</h2>
+<ul>
+<li>Arthritis Action (UK): Water-based Activity for Arthritis factsheet.</li>
+<li>U.S. Centers for Disease Control and Prevention: Arthritis Foundation Aquatic Program fact sheet.</li>
+<li>U.S. National Institute on Aging: exercise and physical activity guidance, including chair exercises.</li>
 </ul>
 <p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
 </article></div></main>""")
