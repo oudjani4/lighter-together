@@ -41,3 +41,4 @@ footer p{flex-basis:100%}
 footer a{white-space:normal}
 nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem}
 nav a,footer a{white-space:nowrap;overflow-wrap:normal;word-break:normal}
+.hero{display:block;width:100%;max-width:100%;height:auto;border-radius:14px;margin:.6rem 0 1.2rem}
