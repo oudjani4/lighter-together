@@ -33,14 +33,14 @@ PAGE = """<!doctype html>
 </head><body>
 <header class="site"><div class="wrap">
 <a class="logo" href="index.html">{site}</a>
-<nav><a href="index.html">Home</a><a href="how-to-treat-severe-obesity.html">Guide</a><a href="community.html">Community</a><a href="share-your-story.html">Share</a><a href="about.html">About</a></nav>
+<nav><a href="index.html">Home</a><a href="how-to-treat-severe-obesity.html">Guide</a><a href="community.html">Community</a><a href="share-your-story.html">Share</a><a href="ask.html">Ask</a><a href="about.html">About</a></nav>
 </div></header>
 {body}
 <footer><div class="wrap">
 <p><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="medical-disclaimer.html">Medical Disclaimer</a></p>
 <p>&copy; {year} {site}. Information on this site is for education only and is not medical advice. Always consult a qualified healthcare professional.</p>
 </div></footer>
-<script src="config.js"></script><script src="app.js"></script>
+<script src="config.js"></script><script src="app.js"></script><script src="community.js"></script>
 </body></html>"""
 
 pages = []
@@ -219,4 +219,12 @@ urls = "".join(f"<url><loc>{SITE_URL}/{p}</loc><lastmod>{TODAY}</lastmod></url>"
 open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
 open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
 open(os.path.join(OUT, "ads.txt"), "w").write("# Add after AdSense approval:\n# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n")
+import shutil
+shutil.copy("src/community.js", "dist/community.js")
+page("ask.html", "Ask the Community | Lighter Together",
+     "Ask questions about living with severe obesity and read answers from community members. All posts are reviewed before publishing.",
+"""<main><div class="wrap"><h1>Ask the Community</h1>
+<p>Ask a question or share what worked for you. This is peer support, not medical advice, so please talk to your doctor about medical decisions. All posts are reviewed before they appear.</p>
+<div id="ask-board"></div></div></main>""")
+
 print("built", len(pages), "pages")
