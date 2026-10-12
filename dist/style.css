@@ -34,3 +34,10 @@ footer{background:#0f172a;color:#cbd5e1;padding:30px 0;font-size:.9rem}
 footer a{color:#99f6e4;margin-right:14px}
 @media(max-width:600px){.hero h1{font-size:1.6rem}nav a{margin:0 10px 0 0}article{padding:18px}}
 .reply{border-left:3px solid #cbd5e1;margin:.8rem 0;padding-left:.8rem}
+html,body{overflow-x:hidden}
+.wrap,.card,article{max-width:100%;box-sizing:border-box;overflow-wrap:anywhere}
+footer{display:flex;flex-wrap:wrap;gap:.5rem 1rem}
+footer p{flex-basis:100%}
+footer a{white-space:normal}
+nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem}
+nav a,footer a{white-space:nowrap;overflow-wrap:normal;word-break:normal}
