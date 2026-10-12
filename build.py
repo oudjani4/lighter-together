@@ -327,7 +327,57 @@ page("articles.html", "Articles | Lighter Together",
      "Practical, plain-language articles about living with and treating severe obesity.",
 """<main><div class="wrap"><h1>Articles</h1>
 <div class="card"><h3><a href="how-to-treat-severe-obesity.html">How to Treat Severe Obesity</a></h3><p>The main treatment options explained: evaluation, nutrition, activity, medication and surgery.</p></div>
-<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>
+<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>
 </div></main>""")
+
+
+page("sleep-stress-and-weight.html",
+     "Sleep, Stress and Weight: Why Rest Matters | Lighter Together",
+     "How poor sleep and stress can affect appetite and weight, why the link works both ways, and simple steps to sleep and cope better.",
+"""<main><div class="wrap"><article>
+<h1>Sleep, Stress and Weight: Why Rest Matters</h1>
+<p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
+<p>Food and exercise get most of the attention, but sleep and stress also shape how hungry we feel and how much energy we have to move. Looking after them will not replace medical treatment, but it can make every other step easier.</p>
+
+<h2>What the research suggests</h2>
+<ul>
+<li>Research links regularly sleeping less than about seven hours with a higher risk of gaining weight over time.</li>
+<li>Short sleep appears to change hunger-related hormones and to raise the stress hormone cortisol later in the day, which can mean stronger cravings.</li>
+<li>Reviews of the evidence also suggest that ongoing stress can increase appetite and cravings and lower motivation to be active.</li>
+</ul>
+
+<h2>It works both ways</h2>
+<p>The link is not one-directional. Carrying extra weight can itself make sleep worse, through pain, discomfort, reflux, or breathing problems at night. So poor sleep is not a personal failing. It is part of a cycle that can be gently interrupted.</p>
+
+<h2>See a doctor if you notice</h2>
+<ul>
+<li>loud snoring, choking or pauses in breathing during sleep, or waking with a headache;</li>
+<li>heavy sleepiness during the day, even after a full night in bed;</li>
+<li>low mood, constant worry or hopelessness that lasts for weeks.</li>
+</ul>
+<p>Sleep problems such as sleep apnea are common in people living with obesity and are treatable. Treating them can improve energy, mood and health.</p>
+
+<h2>Small steps for better sleep</h2>
+<ul>
+<li>Go to bed and get up at about the same time every day, including weekends.</li>
+<li>Keep the bedroom dark, quiet and cool, and put screens away for the last hour before bed.</li>
+<li>Avoid caffeine in the afternoon and large meals close to bedtime.</li>
+<li>A short daily walk, especially in daylight, can help you fall asleep more easily.</li>
+</ul>
+
+<h2>Small steps for stress</h2>
+<ul>
+<li>Try slow breathing for two to five minutes: breathe in gently, then breathe out for longer than you breathe in.</li>
+<li>Notice when you eat because of stress rather than hunger, and keep a short list of other things to try first, such as a walk, a call to a friend, or a glass of water.</li>
+<li>Talk to someone you trust, to a counsellor, or to our <a href="ask.html">community</a>. You do not have to carry it alone.</li>
+</ul>
+
+<h2>Sources to read</h2>
+<ul>
+<li>Geiker NRW et al. Does stress influence sleep patterns, food intake, weight gain, abdominal obesity and weight loss interventions and vice versa? Obesity Reviews, 2018.</li>
+<li>U.S. National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): Sleep Extension Study in obese adults with short sleep duration (ClinicalTrials.gov NCT00261898).</li>
+</ul>
+<p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
+</article></div></main>""")
 
 print("built", len(pages), "pages")
