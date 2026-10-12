@@ -1,8 +1,8 @@
 import os, shutil, datetime
 
 SITE_NAME = "Lighter Together"
-SITE_URL = "https://YOUR-DOMAIN.com"      # change after buying your domain
-EMAIL = "contact@YOUR-DOMAIN.com"          # change to your real email
+SITE_URL = "https://lighter-together.onrender.com"
+EMAIL = "oudjanifarid4@gmail.com"
 ADSENSE = ""                               # e.g. ca-pub-1234567890123456 (leave empty until approved)
 TODAY = datetime.date.today().isoformat()
 
@@ -37,7 +37,7 @@ PAGE = """<!doctype html>
 </div></header>
 {body}
 <footer><div class="wrap">
-<p><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="medical-disclaimer.html">Medical Disclaimer</a></p>
+<p><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="medical-disclaimer.html">Medical Disclaimer</a><a href="community-rules.html">Community Rules</a><a href="editorial-policy.html">Editorial Policy</a></p>
 <p>&copy; {year} {site}. Information on this site is for education only and is not medical advice. Always consult a qualified healthcare professional.</p>
 </div></footer>
 <script src="config.js"></script><script src="app.js"></script><script src="community.js"></script>
@@ -189,7 +189,10 @@ f"""<main><div class="wrap"><article>
 <p>This site is intended for adults and is not directed to children under 13.</p>
 <h2>Changes</h2>
 <p>We may update this policy and will change the date above when we do.</p>
-</article></div></main>""")
+</article><h2>Community submissions</h2>
+<p>When you submit a story, question, reply or report, we store what you type (your nickname, the text, and for stories the optional kilograms and months) in a Supabase database. Content you submit is reviewed and, once approved, becomes public on the site. Please do not include your real name, contact details or medical records. To have your content removed, email us at the address on the contact page.</p>
+<p>We do not require accounts. Your browser stores a small timestamp locally to limit how often you can post. If advertising is shown on this site, advertising partners such as Google may use cookies to serve ads; you can manage this in your Google ad settings.</p>
+</div></main>""")
 
 page("terms.html", "Terms of Use | Lighter Together", "Terms of use for Lighter Together.",
 f"""<main><div class="wrap"><article>
@@ -226,5 +229,40 @@ page("ask.html", "Ask the Community | Lighter Together",
 """<main><div class="wrap"><h1>Ask the Community</h1>
 <p>Ask a question or share what worked for you. This is peer support, not medical advice, so please talk to your doctor about medical decisions. All posts are reviewed before they appear.</p>
 <div id="ask-board"></div></div></main>""")
+
+
+page("community-rules.html", "Community Rules | Lighter Together",
+     "The rules for posting stories, questions and replies on Lighter Together.",
+"""<main><div class="wrap"><h1>Community Rules</h1>
+<p>Lighter Together is a peer-support space. Please keep it kind, safe and honest.</p>
+<ul>
+<li><strong>Be respectful.</strong> No shaming, bullying, insults or comments about anyone's body.</li>
+<li><strong>Protect your privacy.</strong> Use a nickname. Do not post your full name, phone number, address or medical records.</li>
+<li><strong>No medical orders.</strong> Share your own experience, not instructions for others. Talk to your doctor before changing treatment, diet or medication.</li>
+<li><strong>No selling or promotion.</strong> No ads, links to shops, supplements, or sources for prescription drugs.</li>
+<li><strong>No dangerous advice.</strong> Posts that encourage extreme dieting, purging, or ignoring medical care will be removed.</li>
+<li><strong>Be honest.</strong> Do not invent stories or results.</li>
+</ul>
+<h2>How moderation works</h2>
+<p>Every story, question and reply is reviewed before it appears. Use the Report button on any answer or question that breaks these rules. We may edit or remove content at any time.</p>
+<p>If you are in crisis or need urgent medical help, contact your local emergency number or a healthcare professional.</p>
+<p>Questions or removal requests: <a href="contact.html">contact us</a>.</p>
+</div></main>""")
+
+page("editorial-policy.html", "Editorial Policy | Lighter Together",
+     "How the guides on Lighter Together are written, sourced and corrected.",
+"""<main><div class="wrap"><h1>Editorial Policy</h1>
+<p>Lighter Together is run and edited by its owner. The site is an educational resource and a peer community. It is not a medical service.</p>
+<h2>How we write</h2>
+<ul>
+<li>Guides are written in plain language and based on recognised public health sources, which are listed at the end of each article where possible.</li>
+<li>We do not claim that articles are reviewed by doctors unless a named professional has actually done so.</li>
+<li>We do not sell treatments or accept payment to recommend products.</li>
+</ul>
+<h2>Community content</h2>
+<p>Stories, questions and replies are written by members and reflect personal experience only. They are not medical advice. See the <a href="community-rules.html">Community Rules</a>.</p>
+<h2>Corrections</h2>
+<p>If you find an error or outdated information, email <a href="mailto:%s">%s</a> and we will review and correct it.</p>
+</div></main>""" % (EMAIL, EMAIL))
 
 print("built", len(pages), "pages")
