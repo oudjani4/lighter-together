@@ -327,7 +327,7 @@ page("articles.html", "Articles | Lighter Together",
      "Practical, plain-language articles about living with and treating severe obesity.",
 """<main><div class="wrap"><h1>Articles</h1>
 <div class="card"><h3><a href="how-to-treat-severe-obesity.html">How to Treat Severe Obesity</a></h3><p>The main treatment options explained: evaluation, nutrition, activity, medication and surgery.</p></div>
-<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>\n<div class="card"><h3><a href="how-to-read-nutrition-labels.html">How to Read a Nutrition Facts Label</a></h3><p>A simple step-by-step guide to serving sizes, added sugars, sodium and Daily Values.</p></div>\n<div class="card"><h3><a href="questions-to-ask-your-doctor-about-weight.html">Questions to Ask Your Doctor</a></h3><p>A practical checklist for talking about weight, medicines, surgery and follow-up care.</p></div>\n<div class="card"><h3><a href="gentle-exercises-water-and-chair.html">Gentle Exercises: Water and Chair</a></h3><p>Low-impact ideas for sore joints, with simple safety tips.</p></div>
+<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>\n<div class="card"><h3><a href="how-to-read-nutrition-labels.html">How to Read a Nutrition Facts Label</a></h3><p>A simple step-by-step guide to serving sizes, added sugars, sodium and Daily Values.</p></div>\n<div class="card"><h3><a href="questions-to-ask-your-doctor-about-weight.html">Questions to Ask Your Doctor</a></h3><p>A practical checklist for talking about weight, medicines, surgery and follow-up care.</p></div>\n<div class="card"><h3><a href="gentle-exercises-water-and-chair.html">Gentle Exercises: Water and Chair</a></h3><p>Low-impact ideas for sore joints, with simple safety tips.</p></div>\n<div class="card"><h3><a href="realistic-goals-and-tracking-progress.html">Realistic Goals and Tracking Progress</a></h3><p>How to set small, specific goals and track progress beyond the scale.</p></div>
 </div></main>""")
 
 
@@ -538,6 +538,60 @@ page("gentle-exercises-water-and-chair.html",
 <li>Arthritis Action (UK): Water-based Activity for Arthritis factsheet.</li>
 <li>U.S. Centers for Disease Control and Prevention: Arthritis Foundation Aquatic Program fact sheet.</li>
 <li>U.S. National Institute on Aging: exercise and physical activity guidance, including chair exercises.</li>
+</ul>
+<p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
+</article></div></main>""")
+
+
+page("realistic-goals-and-tracking-progress.html",
+     "Setting Realistic Goals and Tracking Progress | Lighter Together",
+     "How to set realistic, specific goals for your health, how fast progress usually happens, and ways to track it beyond the scale.",
+"""<main><div class="wrap"><article>
+<h1>Setting Realistic Goals and Tracking Progress</h1>
+<p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
+<p>Big dramatic goals feel exciting at first, but they often lead to frustration. Small, specific goals that you can actually reach build confidence, and confidence keeps you going.</p>
+
+<h2>Start with your reason</h2>
+<p>Write down why you want to make a change, such as having more energy, playing with your children, easing joint pain, or improving your blood pressure. Keep it somewhere you will see it. On harder days, your reason matters more than any number.</p>
+
+<h2>Talk to your health team first</h2>
+<p>Your doctor can check for health conditions or medicines that affect weight, and can help you choose a safe pace and plan. Ask for follow-up appointments, so that someone is monitoring your weight and related conditions with you.</p>
+
+<h2>Know what progress usually looks like</h2>
+<ul>
+<li>Public health guidance for adults describes a gradual, steady pace of about 1 to 2 pounds (roughly half to one kilogram) a week as more likely to be kept off than fast loss. Your own pace may be different, so ask your doctor what is right for you.</li>
+<li>Even modest weight loss, around 5 to 10 percent of your starting weight, is likely to bring health benefits such as better blood pressure, cholesterol and blood sugar.</li>
+<li>Progress is rarely a straight line. Weight can go up and down from day to day because of fluid, salt, hormones and sleep.</li>
+</ul>
+
+<h2>Make goals specific and small</h2>
+<p>Focus on two or three goals at a time. Compare these two goals:</p>
+<ul>
+<li>Vague: "I will exercise more." </li>
+<li>Specific: "I will walk for 10 minutes after dinner on three days this week."</li>
+</ul>
+<p>Unrealistic goals, such as a large amount of weight in two weeks, tend to leave people feeling defeated. A goal you reach this week is worth more than a perfect plan you drop next week.</p>
+
+<h2>Track more than the scale</h2>
+<ul>
+<li><strong>Habits:</strong> minutes of activity, hours of sleep, meals you prepared at home.</li>
+<li><strong>How you feel:</strong> energy, mood, pain, and how well you sleep.</li>
+<li><strong>What you can do:</strong> climbing stairs more easily, walking a bit further, getting up from a chair with less effort.</li>
+<li><strong>Health checks:</strong> blood pressure and blood tests from your doctor.</li>
+<li><strong>The scale:</strong> if you use it, weigh yourself at the same time under the same conditions, and look at the trend over weeks rather than single days.</li>
+</ul>
+<p>A simple notebook, a notes app, or a calendar with ticks is enough. If tracking makes you anxious or pushes you towards unhealthy behaviour, stop and talk to your doctor.</p>
+
+<h2>Review and adjust</h2>
+<p>Look back at your goals every week or two. See what is working, change what is not, and plan the next small step. Celebrate wins with rewards that are not food, such as a new walking route, a call with a friend, or time to rest.</p>
+
+<h2>Find support</h2>
+<p>Tell a friend or family member about your goals, or share them with our <a href="ask.html">community</a>. Support makes a real difference to sticking with change.</p>
+
+<h2>Sources to read</h2>
+<ul>
+<li>U.S. Centers for Disease Control and Prevention: Steps for Losing Weight.</li>
+<li>U.S. Centers for Disease Control and Prevention: Losing Weight, What Is Healthy Weight Loss.</li>
 </ul>
 <p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
 </article></div></main>""")
