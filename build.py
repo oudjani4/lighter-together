@@ -37,7 +37,7 @@ PAGE = """<!doctype html>
 </div></header>
 {body}
 <footer><div class="wrap">
-<p><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="medical-disclaimer.html">Medical Disclaimer</a><a href="community-rules.html">Community Rules</a><a href="editorial-policy.html">Editorial Policy</a></p>
+<p><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="medical-disclaimer.html">Medical Disclaimer</a><a href="community-rules.html">Community Rules</a><a href="editorial-policy.html">Editorial Policy</a><a href="articles.html">Articles</a></p>
 <p>&copy; {year} {site}. Information on this site is for education only and is not medical advice. Always consult a qualified healthcare professional.</p>
 </div></footer>
 <script src="config.js"></script><script src="app.js"></script><script src="community.js"></script>
@@ -264,5 +264,70 @@ page("editorial-policy.html", "Editorial Policy | Lighter Together",
 <h2>Corrections</h2>
 <p>If you find an error or outdated information, email <a href="mailto:%s">%s</a> and we will review and correct it.</p>
 </div></main>""" % (EMAIL, EMAIL))
+
+
+page("start-walking-with-severe-obesity.html",
+     "How to Start Walking Safely With Severe Obesity | Lighter Together",
+     "A gentle, practical plan for starting to walk when you live with severe obesity: how to begin, how to progress, and when to ask your doctor first.",
+"""<main><div class="wrap"><article>
+<h1>How to Start Walking Safely With Severe Obesity</h1>
+<p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
+<p>Walking is one of the simplest ways to become more active. It needs no equipment, can be done at any pace, and is usually gentler on the body than running. If severe obesity makes movement uncomfortable, the goal at the start is not speed or distance. It is to build a habit that feels safe and repeatable.</p>
+
+<h2>Talk to your doctor first if...</h2>
+<ul>
+<li>you have heart or lung disease, diabetes, high blood pressure, or have not been active for a long time;</li>
+<li>you have joint, back or foot pain, or problems with balance;</li>
+<li>you take medicines that may affect your heart rate or blood sugar.</li>
+</ul>
+<p>Your doctor can tell you what is safe for you and whether to start with supervised sessions.</p>
+
+<h2>Stop and get urgent help if you notice</h2>
+<p>Chest pain or pressure, severe shortness of breath, fainting or severe dizziness, or sudden pain in a joint. Do not push through these.</p>
+
+<h2>Week 1: start very small</h2>
+<ul>
+<li>Walk for 5 to 10 minutes at a comfortable pace, once or twice a day. Breaking activity into short sessions is fine.</li>
+<li>Use the talk test: you should be able to talk, but not sing. If you cannot speak a full sentence, slow down.</li>
+<li>Choose flat, even ground, or a treadmill, a mall, or a quiet street if the weather is difficult.</li>
+<li>Rest whenever you need to. Stopping to rest is part of the plan, not a failure.</li>
+</ul>
+
+<h2>How to progress</h2>
+<p>Once a session feels easy for a week or two, add a few minutes. Change only one thing at a time, either how long, how often, or how fast. The World Health Organization recommends that adults aim for 150 to 300 minutes of moderate-intensity activity a week, and stresses that some activity is better than none. Reaching that amount gradually, over weeks or months, is normal and sensible.</p>
+
+<h2>Protect your joints and skin</h2>
+<ul>
+<li>Wear supportive, well-fitting shoes with cushioning and enough room for your toes.</li>
+<li>Wear breathable clothing and moisture-wicking socks to reduce chafing. Anti-chafe products can help.</li>
+<li>Drink water, and avoid walking in extreme heat.</li>
+<li>If walking is painful, ask your doctor about lower-impact options such as water exercise, a stationary bike, or chair-based exercises.</li>
+</ul>
+
+<h2>Make it stick</h2>
+<ul>
+<li>Link walking to something you already do, such as after a meal or after a phone call.</li>
+<li>Walk with a friend or family member, or share your progress with our <a href="ask.html">community</a>.</li>
+<li>Track minutes, not weight. Better sleep, mood, energy and blood pressure can improve before the scale moves.</li>
+</ul>
+
+<h2>A realistic expectation</h2>
+<p>Physical activity brings real health benefits even when weight changes slowly. On its own, it usually leads to modest weight loss, and it works best alongside medical care and healthy eating guided by a professional.</p>
+
+<h2>Sources to read</h2>
+<ul>
+<li>World Health Organization: Guidelines on physical activity and sedentary behaviour (2020).</li>
+<li>U.S. Centers for Disease Control and Prevention: Physical Activity Basics for Adults.</li>
+<li>U.S. National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): Physical activity and weight management.</li>
+</ul>
+<p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
+</article></div></main>""")
+
+page("articles.html", "Articles | Lighter Together",
+     "Practical, plain-language articles about living with and treating severe obesity.",
+"""<main><div class="wrap"><h1>Articles</h1>
+<div class="card"><h3><a href="how-to-treat-severe-obesity.html">How to Treat Severe Obesity</a></h3><p>The main treatment options explained: evaluation, nutrition, activity, medication and surgery.</p></div>
+<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>
+</div></main>""")
 
 print("built", len(pages), "pages")
