@@ -327,7 +327,7 @@ page("articles.html", "Articles | Lighter Together",
      "Practical, plain-language articles about living with and treating severe obesity.",
 """<main><div class="wrap"><h1>Articles</h1>
 <div class="card"><h3><a href="how-to-treat-severe-obesity.html">How to Treat Severe Obesity</a></h3><p>The main treatment options explained: evaluation, nutrition, activity, medication and surgery.</p></div>
-<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>\n<div class="card"><h3><a href="how-to-read-nutrition-labels.html">How to Read a Nutrition Facts Label</a></h3><p>A simple step-by-step guide to serving sizes, added sugars, sodium and Daily Values.</p></div>
+<div class="card"><h3><a href="start-walking-with-severe-obesity.html">How to Start Walking Safely</a></h3><p>A gentle plan for beginning, progressing and staying safe.</p></div>\n<div class="card"><h3><a href="sleep-stress-and-weight.html">Sleep, Stress and Weight</a></h3><p>How rest and stress affect appetite, and simple steps to improve both.</p></div>\n<div class="card"><h3><a href="how-to-read-nutrition-labels.html">How to Read a Nutrition Facts Label</a></h3><p>A simple step-by-step guide to serving sizes, added sugars, sodium and Daily Values.</p></div>\n<div class="card"><h3><a href="questions-to-ask-your-doctor-about-weight.html">Questions to Ask Your Doctor</a></h3><p>A practical checklist for talking about weight, medicines, surgery and follow-up care.</p></div>
 </div></main>""")
 
 
@@ -418,6 +418,75 @@ page("how-to-read-nutrition-labels.html",
 <ul>
 <li>U.S. Food and Drug Administration: How to Understand and Use the Nutrition Facts Label.</li>
 <li>Academy of Nutrition and Dietetics (eatright.org): The Basics of the Nutrition Facts Label.</li>
+</ul>
+<p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
+</article></div></main>""")
+
+
+page("questions-to-ask-your-doctor-about-weight.html",
+     "Questions to Ask Your Doctor About Weight and Treatment | Lighter Together",
+     "A practical list of questions to take to your doctor when you want to talk about weight, medicines, surgery, follow-up care and insurance.",
+"""<main><div class="wrap"><article>
+<h1>Questions to Ask Your Doctor About Weight and Treatment</h1>
+<p class="meta">Educational content, not medical advice. Please read our <a href="medical-disclaimer.html">medical disclaimer</a>.</p>
+<p>Talking about weight can feel uncomfortable, but your doctor is there to help you improve your health, not to judge you. A little preparation makes the visit far more useful.</p>
+
+<h2>Before the visit</h2>
+<ul>
+<li>Tell the clinic that you would like to talk about your weight, so that enough time is booked.</li>
+<li>Write your questions down in advance, and bring the list with you.</li>
+<li>Bring a list of your medicines, and note any health problems you have, such as high blood pressure, diabetes, sleep apnea or joint pain.</li>
+<li>Consider bringing a trusted friend or family member for support.</li>
+</ul>
+
+<h2>Questions about your health</h2>
+<ul>
+<li>How is my weight affecting my health right now?</li>
+<li>Do I need any tests, such as blood sugar, cholesterol, blood pressure or a sleep study?</li>
+<li>Could any of my current medicines be affecting my weight?</li>
+<li>What treatment do you recommend for me, and why?</li>
+</ul>
+
+<h2>Questions about food and activity</h2>
+<ul>
+<li>Can you refer me to a registered dietitian?</li>
+<li>What kind of activity is safe for me to start with?</li>
+<li>Is there a supervised weight management programme you recommend?</li>
+</ul>
+
+<h2>Questions about medicines</h2>
+<ul>
+<li>Which medicine, if any, is likely to suit my health needs?</li>
+<li>What results can I realistically expect, and how will we measure them?</li>
+<li>What are the possible side effects, and what should I do if they happen?</li>
+<li>How long would I need to take it, and what happens if I stop?</li>
+<li>Is it safe alongside my other medicines?</li>
+</ul>
+
+<h2>Questions about surgery</h2>
+<ul>
+<li>Am I a suitable candidate for weight-loss surgery?</li>
+<li>Which operations might suit me, and what are the risks and benefits of each?</li>
+<li>What preparation do I need before surgery, and what changes will I need to make afterwards?</li>
+<li>What follow-up care, vitamins and check-ups will I need for the long term?</li>
+</ul>
+
+<h2>Questions about cost and follow-up</h2>
+<ul>
+<li>Will my insurance or health system cover this treatment? Do I need prior approval?</li>
+<li>Are there lower-cost options?</li>
+<li>When is my next visit, and who can I contact in between if I have questions or problems?</li>
+<li>Should I see any other specialists?</li>
+</ul>
+
+<h2>After the visit</h2>
+<p>Make sure you understand what was said. If something was unclear, ask again, or call the clinic afterwards. Write down the answers and the plan so that you can look back at them. Treatment for severe obesity is a long-term partnership, and it is fine to take time to decide.</p>
+
+<h2>Sources to read</h2>
+<ul>
+<li>U.S. National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): fact sheet on talking with your health care professional about weight.</li>
+<li>American Association of Clinical Endocrinology (AACE): Questions to Ask Your Health Care Professional about obesity.</li>
+<li>American Diabetes Association: Talking to Your Doctor About Obesity Medical Treatments.</li>
 </ul>
 <p class="meta">Written and edited by the owner of Lighter Together. See our <a href="editorial-policy.html">editorial policy</a>.</p>
 </article></div></main>""")
